@@ -55,5 +55,6 @@ public class MyWorld extends World
         addObject(mulai,79,177);
         quit quit = new quit();
         addObject(quit,179,268);
+        
     }
 }

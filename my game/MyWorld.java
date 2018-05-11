@@ -17,8 +17,7 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(500, 500, 1); 
-
+        super(703, 433, 1); 
         prepare();
     }
 
@@ -28,17 +27,10 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-        
+
         kelici1 kelici1 = new kelici1();
         addObject(kelici1,387,312);
-        mulai mulai = new mulai();
-        addObject(mulai,114,92);
-        quit quit = new quit();
-        addObject(quit,124,186);
-        mulai.setLocation(108,51);
-        quit.setLocation(112,157);
-        mulai.setLocation(110,73);
-        quit.setLocation(113,169);
+
         balokmenu balokmenu = new balokmenu();
         addObject(balokmenu,101,447);
         balokmenu2 balokmenu2 = new balokmenu2();
@@ -52,6 +44,16 @@ public class MyWorld extends World
         balokmenu2.setLocation(252,486);
         durimenu.setLocation(330,428);
         balokmenu.setLocation(194,389);
-        quit.setLocation(111,204);
+
+        kelici1.setLocation(561,185);
+        durimenu.setLocation(611,417);
+        balokmenu2.setLocation(488,383);
+        balokmenu.setLocation(377,337);
+        balokmenu2.setLocation(488,391);
+        balokmenu.setLocation(409,319);
+        mulai mulai = new mulai();
+        addObject(mulai,79,177);
+        quit quit = new quit();
+        addObject(quit,179,268);
     }
 }

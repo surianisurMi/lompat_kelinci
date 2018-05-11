@@ -17,13 +17,11 @@ public class game extends World
      */
     public game()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        
-        super(700, 500, 1); 
-        addObject(Kelinci,getWidth ()/2
-        ,getHeight()/8);
+
+        super(700,500, 1);
         prepare();
-    }
+    }
+
     /**
      * Method act
      *
@@ -31,7 +29,7 @@ public class game extends World
     public void act(){
        if(jeda==0){
             addObject(new duri3(),615,563);
-            jeda=400;
+            jeda=200;
 
         }
         else {
@@ -75,14 +73,17 @@ public class game extends World
             
         }
     }
-     private void prepare()
-    
+     
+    private void prepare()
+
     {
-        
+
         balok3 balok3 = new balok3();
         addObject(balok3,358,26);
         balok3.setLocation(350,14);
-        
+
+        Kelinci kelinci = new Kelinci();
+        addObject(kelinci,345,102);
     }
 }
 

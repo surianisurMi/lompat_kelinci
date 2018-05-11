@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri May 11 20:17:33 SGT 2018
+#Fri May 11 13:41:15 SGT 2018
 editor.fx.0.height=0
 target2.width=80
 target8.name=durimenu
@@ -145,13 +145,13 @@ target3.showInterface=false
 target3.name=Kelinci
 target6.showInterface=false
 target3.typeParameters=
-dependency3.to=balok
 target9.showInterface=false
+dependency3.to=balok
 target7.name=duri3
 class.balok.image=my balok.png
 dependency11.type=UsesDependency
-class.quit.image=quit.png
 package.numDependencies=15
+class.quit.image=quit.png
 dependency13.to=durimenu
 package.numTargets=12
 class.durimenu.superclass=greenfoot.Actor
@@ -159,8 +159,8 @@ target12.name=MyWorld
 dependency15.type=UsesDependency
 dependency1.type=UsesDependency
 target4.type=ClassTarget
-target12.showInterface=false
 target8.width=80
+target12.showInterface=false
 dependency8.to=balok3
 simulation.speed=54
 target9.width=80
@@ -186,7 +186,7 @@ target4.name=balok3
 readme.y=10
 readme.x=10
 target4.height=50
-target12.typeParameters=
 readme.height=58
+target12.typeParameters=
 target1.width=80
 dependency14.to=mulai

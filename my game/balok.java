@@ -18,5 +18,6 @@ public class balok extends Actor
         // Add your action code here.
         setLocation(getX(),getY()-1);
         
+        
     }    
 }

@@ -15,5 +15,6 @@ public class kelici1 extends Actor
     public void act() 
     {
         // Add your action code here.
+        
     }    
 }

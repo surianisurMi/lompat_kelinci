@@ -20,6 +20,7 @@ public class duri3 extends Actor
         if(isAtEdge())
         {
             w.removeObject(this);
+            
         }
     }    
 }

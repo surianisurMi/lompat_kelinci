@@ -12,3 +12,5 @@ sudah
 cape
 
 ubah
+
+kodingan nilai

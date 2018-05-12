@@ -16,6 +16,10 @@ public class duri3 extends Actor
     {
         // Add your action code here.
         setLocation(getX(),getY()-1);
-        
+        World w=getWorld();
+        if(isAtEdge())
+        {
+            w.removeObject(this);
+        }
     }    
 }

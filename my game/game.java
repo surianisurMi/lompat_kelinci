@@ -29,7 +29,7 @@ public class game extends World
      *
      */
     public void act(){
-       if(jeda==0){
+        if(jeda==0){
             addObject(new duri3(),615,563);
             jeda=200;
 

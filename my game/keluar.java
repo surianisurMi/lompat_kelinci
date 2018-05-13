@@ -1,22 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class mulai here.
+ * Write a description of class keluar here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class mulai extends Actor
+public class keluar extends buttons
 {
     /**
-     * Act - do whatever the mulai wants to do. This method is called whenever
+     * Act - do whatever the keluar wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-         if (Greenfoot.mouseClicked(this))
-        {
-            Greenfoot.setWorld(new game());
-        }
+        // Add your action code here.
     }    
 }

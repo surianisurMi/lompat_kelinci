@@ -23,5 +23,15 @@ public class balok extends Actor
         {
             w.removeObject(this);
         }
+	        World w=getWorld();
+        if else(isAtEdge())
+        {
+            w.removeObject(this);
+        }
+	        World w=getWorld();
+        if else(isAtEdge())
+        {
+            w.removeObject(this);
+        }
     }    
 }

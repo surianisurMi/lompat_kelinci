@@ -27,7 +27,7 @@ public class MyWorld extends World
      */
     private void prepare()
     {
-
+      
         kelici1 kelici1 = new kelici1();
         addObject(kelici1,387,312);
 
@@ -51,10 +51,8 @@ public class MyWorld extends World
         balokmenu.setLocation(377,337);
         balokmenu2.setLocation(488,391);
         balokmenu.setLocation(409,319);
-        mulai mulai = new mulai();
-        addObject(mulai,79,177);
-        quit quit = new quit();
-        addObject(quit,179,268);
+        
+ 
         
     }
 }

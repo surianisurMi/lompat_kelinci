@@ -21,7 +21,7 @@ public class Kelinci extends Actor
         v+=a;//v=v+a
         
         if(Greenfoot.isKeyDown("up")){
-            v=-5;
+            v=-20;
         }
     }    
 }

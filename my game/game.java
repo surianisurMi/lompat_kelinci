@@ -21,6 +21,9 @@ public class game extends World
         super(761,443, 1);
         prepare();
         Greenfoot.playSound("musikk.mp3");
+        
+        
+        
     }
 
 

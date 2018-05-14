@@ -18,7 +18,7 @@ public class game extends World
     public game()
     {    
 
-        super(700,500, 1);
+        super(761,443, 1);
         prepare();
         Greenfoot.playSound("musikk.mp3");
     }
@@ -87,6 +87,7 @@ public class game extends World
 
         Kelinci kelinci = new Kelinci();
         addObject(kelinci,345,102);
+        balok3.setLocation(373,13);
     }
 }
 

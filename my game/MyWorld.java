@@ -51,6 +51,10 @@ public class MyWorld extends World
         balokmenu.setLocation(377,337);
         balokmenu2.setLocation(488,391);
         balokmenu.setLocation(409,319);
+        mulai mulai = new mulai();
+        addObject(mulai,79,177);
+        quid quid = new quid();
+        addObject(quid,179,268);
         
  
         
